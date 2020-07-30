@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -47,7 +48,7 @@
                 android:gravity="center_vertical"
                 android:drawablePadding="10dp"
                 android:padding="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
                 android:textStyle="normal"
                 android:fontFamily="@font/montserrat_medium"
                 android:textColor="@color/black" />
@@ -58,13 +59,14 @@
                 android:layout_height="wrap_content"
                 android:textSize="10sp"
                 android:gravity="center_vertical"
-                android:drawableLeft="@drawable/ic_time"
+                android:drawableStart="@drawable/ic_time"
                 android:drawablePadding="10dp"
                 android:padding="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
                 android:textStyle="normal"
                 android:fontFamily="@font/montserrat_medium"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                tools:ignore="SmallSp" />
 
             <TextView
                 android:id="@+id/tv_calories"
@@ -72,13 +74,13 @@
                 android:layout_height="wrap_content"
                 android:textSize="10sp"
                 android:gravity="center_vertical"
-                android:drawableLeft="@drawable/ic_calories"
+                android:drawableStart="@drawable/ic_calories"
                 android:drawablePadding="10dp"
                 android:padding="5dp"
                 android:textStyle="normal"
                 android:fontFamily="@font/montserrat_medium"
                 android:textColor="@color/black"
-               />
+                tools:ignore="SmallSp" />
             </LinearLayout>
         </LinearLayout>
 

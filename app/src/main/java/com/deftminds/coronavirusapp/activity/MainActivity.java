@@ -126,16 +126,13 @@ public class MainActivity extends AppCompatActivity  {
             switch (id) {
                 case R.id.action_home:
                 selectedFragment = new HomeFragment();
-              //  title.setText("Home");
                 break;
 
                 case R.id.action_benifits:
                     selectedFragment = new BenifitFragment();
-                   // title.setText("Benifits");
                     break;
                 case R.id.action_tips:
                     selectedFragment = new TipsFragment();
-                    // title.setText("Tips");
                     break;
 
             }
@@ -153,7 +150,6 @@ public class MainActivity extends AppCompatActivity  {
               break;
 
           case R.id.nav_training_plan:
-              title.setText("Training Plan");
               Fragment fragment = new TrainingFragment();
               FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
               fragmentTransaction.replace(R.id.homeContainer, fragment).commit();

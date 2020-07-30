@@ -55,12 +55,10 @@
                     android:id="@+id/tv_pose"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/circular_view_with_custom_text"
-                    android:layout_centerInParent="true"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="TRIKONASANA"
+                    android:text="@string/trikonasana"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -94,7 +92,8 @@
                         android:layout_marginBottom="20dp"
                         android:background="@drawable/ic_pause"
                         android:text="Pause"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:contentDescription="TODO" />
 
                     <ImageView
                         android:id="@+id/resume"
@@ -106,7 +105,8 @@
                         android:layout_marginBottom="20dp"
                         android:background="@drawable/ic_play"
                         android:text="Resume"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:contentDescription="TODO" />
                 </RelativeLayout>
 
 

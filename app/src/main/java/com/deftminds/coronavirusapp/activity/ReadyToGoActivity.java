@@ -27,7 +27,10 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 public class ReadyToGoActivity extends AppCompatActivity  {
+
+
     private static final String TAG = "ReadyToGoActivity";
+
     int [] songs;
     TextView mTextDebug;
     Button mPlayButton;
