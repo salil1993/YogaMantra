@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tab_1" />
+
+    <item
+        android:id="@+id/action_benifits"
+        android:icon="@drawable/ic_benifits"
+        android:title="@string/tab_2" />
+
+    <item
+        android:id="@+id/action_tips"
+        android:icon="@drawable/ic_tips"
+        android:title="@string/tab_3" />
+</menu>
